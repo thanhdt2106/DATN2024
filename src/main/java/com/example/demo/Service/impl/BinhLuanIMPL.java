@@ -44,7 +44,7 @@ public class BinhLuanIMPL implements BinhLuanService{
 	@Override
 	public BinhLuanEntity findById(String id) {
 		// TODO Auto-generated method stub
-		return BLDao.findById(id).get();
+		return null;
 	}
 
 	@Override
@@ -91,7 +91,7 @@ public class BinhLuanIMPL implements BinhLuanService{
 	@Override
 	public void delete(String id) {
 		// TODO Auto-generated method stub
-		BLDao.deleteById(id);
+;
 	}
 
 	@Override

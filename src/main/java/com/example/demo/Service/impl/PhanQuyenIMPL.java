@@ -30,7 +30,7 @@ public class PhanQuyenIMPL implements PhanQuyenService{
 	@Override
 	public PhanQuyenEntity findById(String id) {
 		// TODO Auto-generated method stub
-		return PQDao.findById(id).get();
+		return null;
 	}
 
 	@Override
@@ -47,7 +47,7 @@ public class PhanQuyenIMPL implements PhanQuyenService{
 	@Override
 	public void delete(String id) {
 		// TODO Auto-generated method stub
-		PQDao.deleteById(id);
+	;
 	}
 	
 	@Override

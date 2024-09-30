@@ -35,7 +35,7 @@ public class HoaDonIMPL implements HoaDonService{
 	@Override
 	public HoaDonEntity findById(String id) {
 		// TODO Auto-generated method stub
-		return HDDao.findById(id).get();
+		return null;
 	}
 
 	@Override
@@ -65,7 +65,7 @@ public class HoaDonIMPL implements HoaDonService{
 	@Override
 	public void delete(String id) {
 		// TODO Auto-generated method stub
-		HDDao.deleteById(id);
+		
 	}
 
 	@Override

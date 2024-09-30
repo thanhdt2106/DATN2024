@@ -34,13 +34,13 @@ public class HoaDonChiTietIMPL implements HoaDonChiTietService {
 	@Override
 	public HoaDonChiTietEntity findById(String id) {
 		// TODO Auto-generated method stub
-		return HDCTDao.findById(id).get();
+		return null;
 	}
 
 	@Override
 	public void delete(String id) {
 		// TODO Auto-generated method stub
-		HDCTDao.deleteById(id);
+	;
 	}
 
 	@Override

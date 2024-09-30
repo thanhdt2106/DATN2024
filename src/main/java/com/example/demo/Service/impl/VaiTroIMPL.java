@@ -23,7 +23,7 @@ public class VaiTroIMPL implements VaiTroService{
 	@Override
 	public VaiTroEntity findById(String id) {
 		// TODO Auto-generated method stub
-		return VTDao.findById(id).get();
+		return null;
 	}
 
 	@Override
@@ -41,7 +41,7 @@ public class VaiTroIMPL implements VaiTroService{
 	@Override
 	public void delete(String id) {
 		// TODO Auto-generated method stub
-		VTDao.deleteById(id);
+		;
 	}
 
 	@Override

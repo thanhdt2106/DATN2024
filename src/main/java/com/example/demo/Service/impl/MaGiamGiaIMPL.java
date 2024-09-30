@@ -23,7 +23,7 @@ public class MaGiamGiaIMPL implements MaGiamGiaService{
 	@Override
 	public MaGiamGiaEntity findById(String id) {
 		// TODO Auto-generated method stub
-		return MGGDao.findById(id).get();
+		return null;
 	}
 
 	@Override
@@ -41,7 +41,7 @@ public class MaGiamGiaIMPL implements MaGiamGiaService{
 	@Override
 	public void delete(String id) {
 		// TODO Auto-generated method stub
-		MGGDao.deleteById(id);
+	;
 	}
 
 }
