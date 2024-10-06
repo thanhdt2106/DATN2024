@@ -156,7 +156,7 @@ button{overflow:visible;-webkit-transition:.3s ease-out;-ms-transition:.3s ease-
 .header__cols{margin:0 -20px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-justify-content:space-between;-ms-justify-content:space-between;justify-content:space-between}
 .header__col,.header__left,.header__right{padding:0 20px}
 .logo{height:22px;padding:2px 0 0;display:block}
-.logo__image{top:-7px;position:relative;width:150px;margin:0}
+.logo__image{top:-100px;position:relative;width:200px;margin:0}
 .logo__nav{display:block;margin:0 auto;width:50%;padding-bottom:1em}
 .header-nav{padding:0 56px}
 .header-nav__list{margin:0 -20px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}
